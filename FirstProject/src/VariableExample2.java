@@ -9,8 +9,8 @@ public class VariableExample2 {
 		
 //		age <= 나이 => 25세 이상.
 //		age >= 나이 => 25세 이하.
-		if(age <= My_age) System.out.println(name + "은 25세 이상입니다.");
-		if(age >= My_age) System.out.println(name + "은 25세 이하입니다.");
+		if(age <= My_age) System.out.println(name + "은 25세 이상");
+		if(age >= My_age) System.out.println(name + "은 25세 이하");
 		System.out.println("end of program.");
 
 	}
