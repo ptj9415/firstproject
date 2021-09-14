@@ -16,7 +16,7 @@ public class Parktaejoon {
 		scn.nextLine();
 		
 		System.out.printf("저는 %s에 살고 %d살인 %s입니다.", home, age, name);
-		
+//		주석처리입니다.
 
 	}
 
