@@ -4,8 +4,8 @@ public class VariableExample2 {
 	public static void main(String[] args) {
 //		이름, 나이, 참/거짓
 		String name = "박태준";
-		int age = 25;
-		int My_age = 28;
+		int age = 15;
+		int My_age = 21;
 		
 //		age <= 나이 => 25세 이상.
 //		age >= 나이 => 25세 이하.
