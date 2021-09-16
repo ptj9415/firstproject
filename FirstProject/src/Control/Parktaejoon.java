@@ -1,19 +1,24 @@
 package Control;
 
+import java.util.Scanner;
+
 public class Parktaejoon {
 
 	public static void main(String[] args) {
-//		if 구문과 for/while 구문을 사용하고 break, continue 구문을 사용해서 프로그램 만들기
-		
-		
-		int num1 = (int)(Math.random() * 6) + 1;
-		int sum = 0;
+//		if 구문과 for/while 구문을 사용하여 문제 생성
+
+		int num = 0;
+		System.out.println("제가 좋아하는 수는 무엇일까요?");
+		Scanner scn = new Scanner(System.in);
 		do {
-			for(int i = 1; i <= 3; i++) {
-				if
+			num = scn.nextInt();
+			if (num < 72) {
+				System.out.println(num + "보다 큰 수입니다.");
 			}
-			sum = sum + num1;
-		}
-		while();
+			if (num > 72) {
+				System.out.println(num + "보다 작은 수입니다.");
+			}
+		} while (num != 72);
+		System.out.println("정답입니다.");
 	}
 }
