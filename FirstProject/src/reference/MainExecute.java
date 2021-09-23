@@ -39,8 +39,13 @@ public class MainExecute {
 	}
 
 	public static void inputName(String[] ary) { // 2번
-		for(int i = 0; i < ary.length; i++) {
-		String stuName = readString("학생 이름을 입력하세요.");
+		if(ary == null ) {
+			return;
+		}
+		for (int i = 0; i<ary.length; i++) {
+			ary[i] = readString("학생 이름을 입력하세요");
+		}
+		
 		
 	}
 
@@ -49,7 +54,7 @@ public class MainExecute {
 			return;
 		}
 		for (int i = 0; i <ary.length; i++) { 
-			System.out.printf("%d번째 학생: %d\n", i, ary[i]);
+			System.out.printf("%d번째 학생: %s\n", i, ary[i]);
 		}
 		
 	}
